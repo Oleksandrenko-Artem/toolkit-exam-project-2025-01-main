@@ -290,6 +290,8 @@
   @include innerContainer
   background-color: #FAFAFA
 
+.firstNamingPlatformContainer
+  @include innerContainer
 
 .whiteContainer
   @include innerContainer
@@ -388,6 +390,30 @@
   min-width: 300px
   width: 300px
   margin: 40px 0
+
+.readyToStartContainer
+  display: flex
+  align-items: center
+  justify-content: space-between
+  color: white
+  padding: 20px
+  margin: 10px
+  width: 78%
+  background: linear-gradient(90deg,rgba(71, 224, 255, 1) 0%, rgba(2, 119, 166, 1) 40%, rgba(43, 10, 163, 1) 80%, rgba(63, 0, 158, 1) 100%)
+  @media screen and (max-width: 940px)
+    flex-direction: column
+    align-items: start
+    gap: 10px
+  a
+    display: flex
+    align-items: center
+    color: black
+    text-transform: capitalize
+    background-color: white
+    border: none
+    padding: 10px
+    img
+      width: 22px
 
   &__link
     display: flex

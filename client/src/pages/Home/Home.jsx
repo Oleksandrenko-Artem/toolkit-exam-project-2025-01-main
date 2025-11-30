@@ -8,6 +8,7 @@ import Footer from '../../components/Footer/Footer';
 import styles from './Home.module.sass';
 import carouselConstants from '../../carouselConstants';
 import Spinner from '../../components/Spinner/Spinner';
+import FirstNamingPlatformList from './FirstNamingPlatformList/index';
 
 const Home = props => {
   const [index, setIndex] = useState(0);
@@ -59,6 +60,9 @@ const Home = props => {
                 images={carouselConstants.mainSliderImages}
                 carouselType={carouselConstants.MAIN_SLIDER}
               />
+            </div>
+            <div className={styles.firstNamingPlatformContainer}>
+                <FirstNamingPlatformList />
             </div>
             <div className={styles.container__description}>
               <h2 className={styles.blueUnderline}>Why Squadhelp?</h2>
@@ -248,7 +252,14 @@ const Home = props => {
               <Link className={styles.button__link} to='/dashboard'>
                 DASHBOARD
               </Link>
-            </div>
+              </div>
+              <div className={styles.readyToStartContainer}>
+                <span>Ready to get started? Launch a contest and start receiving submissions instantly.</span>
+                <Link to='/startContest'>
+                  <img src={`${CONSTANTS.STATIC_IMAGES_PATH}lightbulb-outline.png`} alt='lightbulb-outline' />
+                  Start a contest
+                </Link>
+              </div>
             <div className={styles.blueContainer}>
               <h2 className={styles.whiteUnderline}>What our customers say</h2>
               <SlideBar
