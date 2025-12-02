@@ -1,0 +1,84 @@
+[
+    {
+        "color": "#e0b48d",
+        "type": "Bronze",
+        "describeType": "Branding on a budget",
+        "price": "$299",
+        "profit": [
+            {
+                "body": "Prize to Winner - $135 (Included)",
+                "tooltip": "Paid to the winning creative at the end of contest. This amount is already included in your package price"
+            },
+            {
+                "body": "Validation Services & Upgrades ($39 value)",
+                "tooltip": "Naming is difficult Our agency-style validation features and upgrades provide all the tools you need to complete a successful branding project, start to finish, and select a name with confidence"
+            },
+            {
+                "body": "Expected 300+ Entries",
+                "tooltip": "Complimentary extension of timeline if you receive less than expected number of entries"
+            }
+        ]
+    },
+    {
+        "color": "#e8b954",
+        "type": "Gold",
+        "describeType": "Increase participation and basic brand validation",
+        "price": "$449",
+        "profit": [
+            {
+                "body": "Prize to Winner - $200 (Included)",
+                "tooltip": "Paid to the winning creative at the end of contest. This amount is already included in your package price"
+            },
+            {
+                "body": "Validation Services & Upgrades ($305 value)",
+                "tooltip": "Naming is difficult Our agency-style validation features and upgrades provide all the tools you need to complete a successful branding project, start to finish, and select a name with confidence"
+            },
+            {
+                "body": "Expected 600+ Entries",
+                "tooltip": "Complimentary extension of timeline if you receive less than expected number of entries"
+            },
+            {
+                "body": "Partial Refund Option",
+                "tooltip": "Partial Refund Option"
+            }
+        ]
+    },
+    {
+        "color": "#555",
+        "type": "Platinum",
+        "describeType": "Work with top-level creatives, plus agency-style brand validation",
+        "price": "$749",
+        "profit": [
+            {
+                "body": "Prize to Winner - $300 (Included)",
+                "tooltip": "Paid to the winning creative at the end of contest. This amount is already included in your package price"
+            },
+            {
+                "body": "Validation Services & Upgrades ($979 value)",
+                "tooltip": "Naming is difficult Our agency-style validation features and upgrades provide all the tools you need to complete a successful branding project, start to finish, and select a name with confidence"
+            },
+            {
+                "body": "Expected 1000+ Entries",
+                "tooltip": "Complimentary extension of timeline if you receive less than expected number of entries"
+            },
+            {
+                "body": "Partial Refund Option",
+                "tooltip": "Partial Refund Option"
+            }
+        ]
+    },
+    {
+        "color": "#28d2d0",
+        "type": "Managed",
+        "describeType": "A full agency experience without the agency price tag",
+        "price": "$1449",
+        "profit": [
+            {
+                "body": "Receive optimum results from your Naming Contest by launching a Managed Contest Package and working one-on-one with an experienced Atom Branding Consultant."
+            },
+            {
+                "body": "With significantly more validation services available, professional brief creation, and daily management of your contest by your Branding Expert, you'll receive an enhanced branding experience to closeout your branding project."
+            }
+        ]
+    }
+]

@@ -1,0 +1,73 @@
+.divFlex
+    display: flex
+    justify-content: center
+    padding: 20px
+    width: 35%
+
+    .wrapper
+        display: flex
+        flex-direction: row
+        gap: 20px
+        width: 25%
+
+        .head
+            width: 200px
+            height: 160px
+            h4, p
+                padding: 10px
+            h4
+                font-size: 24px
+                font-weight: 600
+
+            .describe
+                height: 50px
+            
+            .price
+                text-align: right
+                font-size: 20px
+            
+            &:hover
+                box-shadow: 0px 6px 5px grey
+        
+        .body
+            position: relative
+            padding: 10px
+            border-bottom: 1px solid lightgrey
+            
+            img
+                fill: green
+                width: 13px
+                padding: 5px
+        
+            &::after, &::before
+                position: absolute
+                left: 100%
+                top: 50%
+                transform: translateY(-50%)
+                background: white
+                box-shadow: 0px 2px 5px grey
+                transition: 1s
+        
+            &::after
+                content: attr(data-tooltip)
+                width: 100px
+                padding: 20px
+                opacity: 0
+                z-index: 99
+            
+            &:hover::after, &:hover::before
+                opacity: 1
+            
+            &::before
+                content: ''
+                opacity: 0
+                z-index: 98
+                transform: translateX(-3px) rotateZ(45deg)
+                $size: 5px
+                width: $size
+                height: $size
+    a
+        display: flex
+        justify-content: center
+        color: white
+        padding: 10px
